@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "log:android": "react-native log-android",
+    "link:fonts": "npx react-native-asset",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:strict": "eslint --max-warnings=0 .",
@@ -30,11 +31,15 @@
     "@react-navigation/stack": "^7.4.2",
     "@typescript-eslint/eslint-plugin": "^8.37.0",
     "@typescript-eslint/parser": "^8.37.0",
+    "babel-plugin-module-resolver": "^5.0.2",
     "react": "19.1.0",
     "react-native": "0.80.1",
+    "react-native-reanimated": "^4.0.0",
     "react-native-safe-area-context": "^5.5.2",
     "react-native-screens": "^4.13.1",
-    "react-native-vector-icons": "^10.2.0"
+    "react-native-svg-transformer": "^1.5.1",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-worklets": "^0.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
