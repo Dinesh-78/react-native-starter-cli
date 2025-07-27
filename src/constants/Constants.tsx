@@ -8,11 +8,12 @@ export enum Colors {
     backgroundSecondary = '#f5f6fb'
 }
 export enum Fonts {
-    Regular = 'Okra-Regular',
-    Medium = 'Okra-Medium',
-    Light = 'Okra-MediumLight',
-    SemiBold = 'Okra-Bold',
-    Bold = 'Okra-ExtraBold',
+    Regular = 'Poppins-Regular',
+    Medium = 'Poppins-Medium',
+    SemiBold = 'Poppins-SemiBold',
+    Bold = 'Poppins-Bold',
+    ExtraBold = 'Poppins-ExtraBold',
+    Black = 'Poppins-Black',
 }
 
 export const lightColors = [
